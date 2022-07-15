@@ -1,0 +1,9 @@
+V1 1 0 v=1
+Vcs 2 0 v=0.526
+Vinp 3 0 v=0.7
+Vinn 4 0 v=0.7
+Mcs nmos solve 5 2 0 0 L=1e-6 W=14.16e-6 VG0=0.4 VD0=0.4 VS0=0 VB0=0
+Minp nmos solve 6 3 5 0 L=1e-6 W=5.25e-6 VG0=0.8 VD0=0.8 VS0=0.2 VB0=0
+Minn nmos solve 7 4 5 0 L=1e-6 W=5.25e-6 VG0=0.8 VD0=0.8 VS0=0.2 VB0=0
+MLoadp pmos solve 6 6 1 1 L=1e-6 W=31.1e-6 VG0=0.8 VD0=0.8 VS0=1.2 VB0=1.2
+MLoadn pmos solve 7 6 1 1 L=1e-6 W=31.1e-6 VG0=0.8 VD0=0.8 VS0=1.2 VB0=1.2

@@ -1,0 +1,4 @@
+V1 1 0 v=0.6
+M1 nmos solve 2 1 0 0 L=1e-6 W=10e-6 VG0=0.6 VD0=0.6
+M2 pmos solve 2 2 3 3 L=1e-6 W=50e-6 VG0=0.6 VD0=0.6 VS0=1.2 VB0=1.2
+V3 3 0 v=1.2

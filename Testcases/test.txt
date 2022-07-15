@@ -1,0 +1,6 @@
+Minn nmos solve 5 2 3 0 L=1e-6 W=5.251e-6 VG0=0.8 VD0=0.8 VS0=0.2 VB0=0
+MLoadn pmos solve 5 4 1 1 L=1e-6 W=31.1e-6 VG0=0.8 VD0=0.8 VS0=1.2 VB0=1.2
+V1 1 0 v=1
+Vinp 2 0 v=0.7
+Vinn 4 0 v=0.4747
+Vinp 3 0 v=0.126

@@ -1,0 +1,5 @@
+M1 nmos design 2 1 0 0 L=1e-6 VD0=0.2 id=10e-6 rho=15
+M2 nmos design 4 3 2 0 L=1e-6 VD0=0.4 VS0=0.2 VB0=0 rho=15 id=10e-6
+M3 pmos design 4 4 5 5 L=1e-6 VD0=0.6 VS0=1 VB0=1 rho=15 id=10e-6
+v2 3 0 v=0.7
+v4 5 0 v=1
